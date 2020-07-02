@@ -1,0 +1,373 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: #0048cd !important;
+}
+.nav-link {
+    color: white !important;
+}
+.subscribe-btn {
+    color: black !important;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.header-container {
+    height: 510px;
+    background-color: #0048cd;
+    /* background-image: url(https://scontent.fgyd5-2.fna.fbcdn.net/v/t1.0-9/104126518_116947276710293_912728520781180554_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=DpCQzQCqaFUAX_-vvRL&_nc_ht=scontent.fgyd5-2.fna&oh=7078316c2cd40200311023ca32fcc245&oe=5F095F4D); */
+}
+.icon-idk {
+    width: 220px;
+}
+.icon-idek {
+    width: 270px;
+}
+.header {
+    color: white;
+    font-size: 100px;
+}
+.header-part-two {
+    color: white;
+    font-size: 100px;
+}
+.community {
+    color: white;
+    font-size: 16px;
+}
+.events {
+    color: white;
+    font-size: 16px;
+}
+.programs {
+    color: white;
+    font-size: 16px;
+}
+.nav-text {
+    color: white;
+    font-size: 17px;
+}
+.sing-in {
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+.logo {
+    width: 180px;
+    margin-left: 20px;
+}
+.second-logo.png {
+    width: 180px;
+}
+a:hover {
+    color: white;
+}
+.programs-card {
+    background-color: white;
+    border-radius: 5px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-container {
+    margin-top: 90px;
+}
+.about-header {
+    font-size: 40px;
+}
+.about-text {
+    margin-top: 50px;
+    font-size: 23px;
+}
+.two-about-text {
+    font-size: 23px;
+}
+.programs-container {
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-color: #0048cd;
+}
+.programs-header {
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+.programs-h4 {
+    color: #0048cd;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.programs-text {
+    color: white;
+    font-size: 16px;
+}
+#boot-main {
+    margin-left: 25px;
+}
+#first-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.f-c-text {
+    color: black;
+}
+.f-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+}
+.f-c-price {
+    color: #0048cd !important;
+    margin-bottom: -3px;
+}
+.f-c-info {
+    font-size: 18px;
+}
+.f-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+#second-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+}
+.s-c-text {
+    color: black;
+    margin-bottom: -1px;
+}
+.s-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+}
+.s-c-price {
+    color: #0048cd !important;
+    margin-bottom: -3px;
+}
+.s-c-info {
+    font-size: 18px;
+}
+.s-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+#third-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.t-c-text {
+    color: black;
+    margin-bottom: -1px;
+}
+.t-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+}
+.t-c-price {
+    color: black !important;
+    margin-bottom: -3px;
+}
+.t-c-info {
+    font-size: 18px;
+}
+.t-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+#fourth-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+}
+.fo-c-text {
+    color: black;
+    margin-bottom: -1px;
+}
+.fo-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+}
+.fo-c-price {
+    color: black !important;
+    margin-bottom: -3px;
+}
+.fo-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-top: 65px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+.events-container {
+    margin-top: 100px;
+}
+#events {
+    background-color: #0048cd;
+    padding-bottom: 40px;
+}
+#sponsors-header {
+    color: white;
+    padding-top: 50px;
+}
+#sponsors-text {
+    color: white;
+}
+#organizers {
+    padding-bottom: 50px;
+}
+.events-header {
+    color: black;
+    font-size: 40px;
+}
+.events-row h2 {
+    color: black;
+    margin-top: 10px;
+}
+.orgonizers-logo {
+    width: 240px;
+    margin: 40px;
+}
+.orgonizers-logo:hover {
+    width: 243px;
+}
+.community-container {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    margin-top: 100px;
+}
+.community-header {
+    color: black;
+    font-size: 40px;
+}
+.join-comm-header {
+    font-size: 18px;
+}
+.logo-container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.final-container {
+    background-color: #0048cd;
+    padding: 35px;
+}
+.copyright-text {
+    color: white;
+}
+.me-text {
+    color: white;
+}
+.sup-text {
+    color: white;
+}
+.sup-logo {
+    width: 100px;
+}
+.g-h-text {
+    color: white;
+}
+.g-h-logo {
+    width: 130px;
+}
+.unreal-logo {
+    width: 150px;
+}
+.tech-logo {
+    width: 310px;
+}
+.unreal-logo:hover {
+    width: 153px;
+}
+.tech-logo:hover {
+    width: 313px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa-facebook {
+    background: #1778F2;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #fb3958;
+    color: white;
+}
+.fa-linkedin {
+    background: #2867B2;
+    color: white;
+}
+@media (min-width: 361px) and (max-width: 767px) {
+    .header-container h1{
+        font-size: 50px;
+    }
+    .icon-idk {
+        width: 120px;
+    }
+    .icon-idek {
+        width: 150px;
+    }
+    .header {
+        margin-bottom: 100px;
+        font-size: 60px !important;
+    }
+    .header-part-two {
+        display: none;
+    }
+
+}
+@media (max-width: 360px) {
+    .header-container h1{
+        font-size: 40px;
+    }
+    .icon-idk {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    .icon-idek {
+        width: 140px;
+    }
+    .header {
+        margin-bottom: 100px;
+        font-size: 60px !important;
+    }
+    .header-part-two {
+        display: none;
+    }
+}

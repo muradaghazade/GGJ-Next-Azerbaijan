@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+.info {
+    color: black;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-color: black;
+    border-radius: 3px;
+    outline: none;
+}
+::placeholder {
+    color: black;
+}
+.icon-image {
+    width: 150px;
+}
+#project-description {
+    color: black;
+    width: 350px;
+    height: 150px;
+    outline: none;
+    resize: none;
+}
+#iformContent {
+    margin-top: 100px;
+}
+.button {
+    color: white;
+    background-color: #12cc82;
+    border-radius: 5px;
+}
+.button-area {
+    padding: 10px;
+}
+.full-name-container {
+    display: inline-flex;
+}
+.email-container {
+    display: inline-flex;
+}
