@@ -3,7 +3,19 @@ html {
 }
 .navbar {
     background-color: #0048cd !important;
+    position: fixed;
+    width: 100%;
+    z-index:1;
+    top: 0;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.sticky + .content {
+    padding-top: 60px;
+  }
 .nav-link {
     color: white !important;
 }
@@ -14,6 +26,7 @@ html {
     padding: 10px;
 }
 .header-container {
+    margin-top: 76px;
     height: 510px;
     background-color: #0048cd;
     /* background-image: url(https://scontent.fgyd5-2.fna.fbcdn.net/v/t1.0-9/104126518_116947276710293_912728520781180554_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=DpCQzQCqaFUAX_-vvRL&_nc_ht=scontent.fgyd5-2.fna&oh=7078316c2cd40200311023ca32fcc245&oe=5F095F4D); */
@@ -71,6 +84,17 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    transition: transform .5s ease;
+}
+.programs-card:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
 .about-container {
     margin-top: 90px;
@@ -257,7 +281,7 @@ a:hover {
     margin: 40px;
 }
 .orgonizers-logo:hover {
-    width: 243px;
+    transform: scale(1.01);
 }
 .community-container {
     padding-top: 50px;
@@ -304,10 +328,10 @@ a:hover {
     width: 310px;
 }
 .unreal-logo:hover {
-    width: 153px;
+    transform: scale(1.01);
 }
 .tech-logo:hover {
-    width: 313px;
+    transform: scale(1.01);
 }
 .fa {
     padding: 10px;
